@@ -13,12 +13,13 @@ Este repositório contém código finalizado do evento Google I/O Extended Web E
 3. Em seguida ative todas as [API do Google Maps].
 4. Insira sua apiKey no arquivo `/starter/app.js` no objeto `apiOptions`.
 5. Gere um mapa do tipo JavaScript nas opções JavaScript escolha Vector, Tilt e Rotation.
-![Gerando Map]
+
+<img src="/img/mapid_gen.png" alt="Gerando Mapa" width="500">
+
 6. Insira sua Map ID gerada no arquivo `/starter/app.js` no objeto `mapOptions`.
-![mapId]
+
+<img src="/img/map_details.png" alt="Gerando Mapa" width="500">
 
 
 [Node.js]: https://nodejs.org/pt-br/
 [API do Google Maps]: https://developers.google.com/maps/gmp-get-started#enable-api-sdk
-[Gerando Map]: /img/mapid_gen.png
-[mapId]: /img/map_details.png
