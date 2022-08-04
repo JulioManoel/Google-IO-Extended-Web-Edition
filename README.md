@@ -1,20 +1,24 @@
-# Google Maps Platform WebGL Codelab
+# Google I/O Extended Web Edition - Sorocaba
 
-This repo contains the project template and finished code for the Google Maps Platform WebGL codelab.
+Este repositório contém código finalizado do evento Google I/O Extended Web Edition sobre a Plataforma Google Maps, onde foi desenvolvido um mapa 3d utilizando API do Google Maps, WebGL, THREE e node.js.
 
-## Getting Started
-To get started with the codelab, download or fork this repo. A starter template is available in `/starter` and the full solution code is available in `/solution`.
+## Pré-Requisitos
+- Conta Google Cloud Patform com o faturamento ativo
+- Editor de Texto.
+- [Node.js] instalado
 
-To run the starter or solution apps, run the following from their respective directories:
+## Começando
+1. Primeiramente execute o comando `npm install` na pasta `/starter`.
+2. Logo após execute `npm start` no mesmo diretorio.
+3. Em seguida ative todas as [API do Google Maps].
+4. Insira sua apiKey no arquivo `/starter/app.js` no objeto `apiOptions`.
+5. Gere um mapa do tipo JavaScript nas opções JavaScript escolha Vector, Tilt e Rotation.
+![Gerando Map]
+6. Insira sua Map ID gerada no arquivo `/starter/app.js` no objeto `mapOptions`.
+![mapId]
 
-1. `npm i`
-2. `npm start`
 
-This will install the needed dependencies and run the app locally in your browser using Webpack Dev Server.
-
-## Support
-If you find a bug, please [file an issue]. Or, if you'd like to contribute, send us a [pull request] and refer to our [code of conduct].
-
-[file an issue]: https://github.com/googlecodelabs/maps-platform-webgl-101/issues
-[pull request]:  https://github.com/googlecodelabs/maps-platform-webgl-101/compare
-[code of conduct]: CODE_OF_CONDUCT.md
+[Node.js]: https://nodejs.org/pt-br/
+[API do Google Maps]: https://developers.google.com/maps/gmp-get-started#enable-api-sdk
+[Gerando Map]: /img/mapid_gen.png
+[mapId]: /img/map_details.png
