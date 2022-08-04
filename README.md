@@ -20,6 +20,12 @@ Este repositório contém código finalizado do evento Google I/O Extended Web E
 
 <img src="/img/map_details.png" alt="Gerando Mapa" width="500">
 
+## Resultado
+Se tudo correu de acordo com o plano, você terá um mapa com um grande alfinete 3D que tem esta aparência:
+
+<video width="320" height="240" controls>
+  <source src="/img/resultado_map.mp4" type="video/mp4">
+</video>
 
 [Node.js]: https://nodejs.org/pt-br/
 [API do Google Maps]: https://developers.google.com/maps/gmp-get-started#enable-api-sdk
