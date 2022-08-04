@@ -14,13 +14,15 @@ Este repositório contém código finalizado do evento Google I/O Extended Web E
 4. Insira sua apiKey no arquivo `/starter/app.js` no objeto `apiOptions`.
 5. Gere um mapa do tipo JavaScript nas opções JavaScript escolha Vector, Tilt e Rotation.
 
-<center>
+<div align="center">
 <img src="/img/mapid_gen.png" alt="Gerando Mapa" width="500">
-</center>
+</div>
 
 6. Insira sua Map ID gerada no arquivo `/starter/app.js` no objeto `mapOptions`.
 
+<div align="center">
 <img src="/img/map_details.png" alt="Gerando Mapa" width="500">
+</div>
 
 ## Resultado
 Se tudo correu de acordo com o plano, você terá um mapa com um grande alfinete 3D que tem esta aparência:
